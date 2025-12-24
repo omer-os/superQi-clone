@@ -1,4 +1,9 @@
+import HomeActionsCard from "../components/modules/home/cards/actions/card";
 
-export default function Page() {
-  return <div>Page</div>;
+export default function HomePage() {
+  return (
+    <div className="p-4">
+      <HomeActionsCard />
+    </div>
+  );
 }
