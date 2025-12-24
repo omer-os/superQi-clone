@@ -1,10 +1,14 @@
 import MainNavbar from "./main-navbar";
 
-export default function MainLayout({ children }: { children: React.ReactNode }) {
+export default function MainLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
-    <div className="min-h-dvh bg-muted">
+    <div className="bg-muted">
       <MainNavbar />
-      {children}
+      <main className="pb-16">{children}</main>
     </div>
-  )
+  );
 }
