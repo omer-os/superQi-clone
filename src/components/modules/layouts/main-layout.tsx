@@ -6,8 +6,7 @@ export default function MainLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className="bg-muted">
-      <MainNavbar />
+    <div className="bg-muted h-dvh overflow-auto">
       <main className="pb-16">{children}</main>
     </div>
   );

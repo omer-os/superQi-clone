@@ -4,7 +4,7 @@ import { Bell, Plus } from "lucide-react";
 
 export default function MainNavbar() {
   return (
-    <div className="bg-secondary flex justify-between items-center h-12 px-4">
+    <div className="bg-secondary flex justify-between items-center h-12 px-4 sticky top-0 z-50">
       <Button variant="ghost">Personal</Button>
 
       <div className="flex gap-4">
