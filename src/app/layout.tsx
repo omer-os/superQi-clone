@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Inter } from "next/font/google";
 import "./globals.css";
-import MainLayout from "@/src/components/modules/layouts/main-layout";
+import MainLayout from "@/components/modules/layouts/main-layout";
 
 const inter = Inter({subsets:['latin'],variable:'--font-sans'});
 

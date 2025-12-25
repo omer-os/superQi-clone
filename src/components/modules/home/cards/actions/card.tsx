@@ -1,4 +1,4 @@
-import { Card } from "@/src/components/ui/card";
+import { Card } from "../../../../ui/card";
 import Actions from "./actions";
 import Header from "./header";
 

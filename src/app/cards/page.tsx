@@ -4,8 +4,7 @@ import SharedNav from '../../components/shared/shared-nav'
 export default function Page() {
   return (
     <div className="flex flex-col gap-4">
-      <SharedNav title="Cards">
-      </SharedNav>
+      <SharedNav title="Cards" bg="bg-background" />
     </div>
   )
 }

@@ -4,17 +4,19 @@ import React from "react";
 import { useRouter } from "next/navigation";
 import { ArrowLeft } from "lucide-react";
 import { Button } from "../ui/button";
+import { cn } from "@/lib/utils";
 
 interface SharedNavProps {
   title: string;
   children?: React.ReactNode;
+  bg?: string;
 }
 
-export default function SharedNav({ title, children }: SharedNavProps) {
+export default function SharedNav({ title, children, bg }: SharedNavProps) {
   const router = useRouter();
 
   return (
-    <div className="flex p-2 bg-background justify-between items-center">
+    <div className={cn("flex p-2 justify-between items-center", bg)}>
       <div className="flex items-center gap-3">
         <Button
           variant="ghost"
